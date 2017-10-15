@@ -27,3 +27,6 @@ Frequent Flyers lose more than 64% of their earning through either expired miles
 
 ## Code
 This repo is the native iOS & Android Apps, which uses a centraslized server & solidity smart contract (deployed on Ropsten).
+
+Developed during ETHackathon (Oct. 2017) in Waterloo, ON.
+![ETHWaterloo](https://i.imgur.com/xz3sAoT.png "ETHWaterloo 2017")
