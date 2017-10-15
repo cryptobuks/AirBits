@@ -1,4 +1,4 @@
-![AirBits](https://i.imgur.com/ptQaFyv.png "AirBits Logo")
+![AirBits](https://i.imgur.com/Ng5WEBZ.png "AirBits Logo")
 # AirBits
 A Decentralized token that is peer to peer exchangeable with frequent flyer program of different airlines. 
 
