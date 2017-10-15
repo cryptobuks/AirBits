@@ -1,0 +1,22 @@
+".container": {
+	backgroundGradient: {
+	    type: 'linear',
+	    colors: ['#5F94E2', '#8230E1'],
+	    startPoint: { x: 0, y: 0 },
+	    endPoint: { x: '100%', y: '100%' },
+	    backFillStart:false
+  }
+}
+
+"#ethAddress": {
+	autocorrect: false,
+	autocapitalization: false,
+	font: {
+		fontSize: 18,
+		fontFamily: 'Courier-Bold',
+	},
+	top: 250,
+	keyboardType: Titanium.UI.KEYBOARD_TYPE_ASCII,
+	borderColor: '#F3F1FB', left: 8, right: 8, borderWidth: 2, height: 35, textAlign: 'center', borderRadius: 4,
+	tintColor: '#FFFFFF'
+}

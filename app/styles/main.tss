@@ -1,0 +1,34 @@
+
+".container" : {
+   statusBarStyle: Titanium.UI.iPhone.StatusBar.LIGHT_CONTENT,
+   layout:'vertical',
+   backgroundGradient: {
+	    type: 'linear',
+	    colors: ['#5F94E2', '#8230E1'],
+	    startPoint: { x: 0, y: 0 },
+	    endPoint: { x: '100%', y: '100%' },
+	    backFillStart:false
+  }
+}
+
+".headerLbl": {
+	color: '#FFFFFF',
+	font: { fontSize: 20, fontFamily: 'AvenirNextCondensed-DemiBold'}
+}
+".fontStyleHeader": {
+	font: { fontSize: 18, fontFamily: 'AvenirNextCondensed-DemiBold'}
+}
+".fontStyle": {
+	font: { fontSize: 15, fontFamily: 'AvenirNextCondensed-DemiBold'}
+}
+".fontStyleQ": {
+	font: { fontSize: 22, fontFamily: 'AvenirNextCondensed-DemiBold'}
+}
+"#usernameTI": {
+	autocorrect: false,
+	autocapitalization: false
+}
+"#passwordTI": {
+	autocorrect: false,
+	autocapitalization: false
+}

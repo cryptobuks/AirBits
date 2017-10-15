@@ -1,0 +1,38 @@
+<Alloy>
+	<Window id="win" class="container" onOpen="onOpen">
+		<TableView height="45%" id="marketPlaceTV" backgroundColor="transparent" opacity="0.8" top="-20">
+			<TableViewSection>
+				<HeaderView>
+	                <View backgroundColor="#4E1D87" top="0" height="50">
+						<Label class="headerLbl" text="Air Miles Market Place" left="13" bottom="1"/>
+					</View>
+	           </HeaderView>
+            <!-- Offers Go Here!-->
+           </TableViewSection> 
+		</TableView>
+		<ScrollableView id="yourMilesSV" top="1" scrollingEnabled="false">
+            <View id="view1" backgroundColor="#E3F1FB" layout="vertical"> 
+               <Label id="myAirBits" top="5" left="12" class="fontStyleHeader">Add your Miles</Label>
+                <TextField id="usernameTI" class="fontStyle" left="8" hintText="Program Username" right="8" left="8" top="10" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_ROUNDED" tintColor="#7C4AE1"/> 
+	            <TextField id="passwordTI" class="fontStyle" left="8" hintText="Program Password" right="8" left="8" top="5" passwordMask="true" borderStyle="Titanium.UI.INPUT_BORDERSTYLE_ROUNDED" tintColor="#7C4AE1"/>
+                <Picker id="picker" top="8" selectionIndicator="true" useSpinner="true" height="200" onChange="getSelectedPicker" width="100%">
+		            <PickerColumn id="column1">
+		                <PickerRow title="AC - Air Miles" data="AC" class="fontStyle"/>
+		                <PickerRow title="AF - Fréquence Plus" data="AF" class="fontStyle"/>
+		                <PickerRow title="BA - Avios" data="BA" class="fontStyle"/> 
+		                <PickerRow title="EM - Skywards" data="EM" class="fontStyle"/> 
+		            </PickerColumn>
+	            </Picker>
+	            <Button title="Fetch My Miles" onClick="getBalance" top="12" borderColor="#7C4AE1"  tintColor="#7C4AE1" width="50%" class="fontStyle"/>
+            </View>
+            
+            <View id="view2" backgroundColor="#F1F1FB">
+             	<ImageView image="/trade.png" top="5" right="5" tintColor="#7C4AE1"></ImageView>
+             	<Label id="milesBalance" left="10" top="20" class="fontStyleHeader"/>
+             	<Label top="170" class="fontStyleQ">Would you like to exchange it\non the market place for AirBits?</Label>
+             	<Button title="  YES, Give me AirBits  " bottom="50" right="20" onClick="exchangeAirmiles" borderColor="#7C4AE1" borderWidth="2" borderRadius="3" tintColor="#7C4AE1" />
+             	<Button title="  NO, I'll keep my Miles  " bottom="50" left="20" onClick="keepAirmiles" borderColor="#7C4AE1" borderWidth="2" borderRadius="3" tintColor="#7C4AE1" />
+            </View> 
+        </ScrollableView>
+	</Window>
+</Alloy>

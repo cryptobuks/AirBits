@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<ImageView image="/logo.png" top="100"></ImageView>
+		<TextField id="ethAddress" hintText="Your ETH Address" onReturn="login" color="#FFFFFF"/>
+	</Window>
+</Alloy>
